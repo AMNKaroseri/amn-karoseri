@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AMN Karoseri</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <link rel="stylesheet" href="css/servicePage.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.9/dist/css/splide.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.9/dist/js/splide.min.js"></script>
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="index.html">
+          <img src="logo3.png" />
+        </a>
+      </div>
+      <div class="links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="our_service.html">Our Service</a></li>
+        <li><a href="our_product.html">Our Product</a></li>
+        <li><a href="contact_us.html">Contact</a></li>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">About Us</a>
+          <div class="dropdown-content">
+            <a href="company_profile.html">Company Profile</a>
+            <a href="vision_mission.html">Vision & Mission</a>
+          </div>
+        </li>
+      </div>
+      <div class="right-menu">
+        <div class="navbar-ext">
+          <i data-feather="search"></i>
+        </div>
+        <div class="hamburger-menu">
+          <i data-feather="menu"></i>
+        </div>
+        <div class="dropdown-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="our_service.html">Our Service</a></li>
+          <li><a href="our_product.html">Our Product</a></li>
+          <li><a href="contact_us.html">Contact</a></li>
+          <li class="dropdown">
+            <a
+              href="javascript:void(0)"
+              class="dropbtn"
+              onclick="toggleDropdown(event)"
+              >About Us</a
+            >
+            <div class="dropdown-content">
+              <a href="company_profile.html">Company Profile</a>
+              <a href="vision_mission.html">Vision & Mission</a>
+            </div>
+          </li>
+        </div>
+      </div>
+    </nav>
+
+    <section class="banner">
+      <img src="img/ourproduct.png" alt="" />
+    </section>
+
+    <section class="our-products home-section1">
+      <div class="container">
+        <div class="product-container">
+          <img
+            src="img/bak besi product.png"
+            alt="Gambar Produk"
+            class="img-left"
+          />
+          <div class="product-details">
+            <h2>Bak Besi</h2>
+            <p>
+              Karoseri bak besi adalah tipe bak terbuka yang dilengkapi dengan
+              pintu tiga arah di sisi kiri, kanan, dan belakang yang memudahkan
+              proses bongkar muat barang. Jenis ini lebih kuat dalam mengangkut
+              beban dibandingkan karoseri kayu.
+            </p>
+            <p><strong>Hubungi Whatsapp:</strong> +62 878-8891-2223</p>
+            <a
+              href="https://api.whatsapp.com/send?phone=6287888912223&text=Halo%2C%20saya%20tertarik%20untuk%20membeli%20produk%20Bak%20Besi."
+              target="_blank"
+              ><button>Beli Sekarang</button></a
+            >
+          </div>
+        </div>
+        <div class="product-container2">
+          <img src="img/box besi product.png" alt="Gambar Produk" />
+          <div class="product-details">
+            <h2>Box Besi</h2>
+            <p>
+              Truk box adalah truk kabin sasis dengan area kargo tertutup
+              berbentuk kubus. Ketika keserbagunaan dan penyimpanan yang besar
+              diperhitungkan, tidak ada alternatif lain selain truk box
+            </p>
+            <p><strong>Hubungi Whatsapp:</strong> +62 878-8891-2223</p>
+            <a
+              href="https://api.whatsapp.com/send?phone=6287888912223&text=Halo%2C%20saya%20tertarik%20untuk%20membeli%20produk%20Box%20Besi."
+              target="_blank"
+              ><button>Beli Sekarang</button></a
+            >
+          </div>
+        </div>
+        <div class="product-container">
+          <img src="img/box almunium product.png" alt="Gambar Produk" />
+          <div class="product-details">
+            <h2>Box Almunium</h2>
+            <p>
+              Keunggulan utama dari karoseri box aluminium adalah bobot yang
+              lebih ringan dibandingkan dengan karoseri baja. Hal ini
+              menyebabkan kendaraan menjadi lebih efisien dalam konsumsi bahan
+              bakar dan mampu membawa beban lebih besar tanpa menambah beban
+              berlebih pada mesin.
+            </p>
+            <p><strong>Hubungi Whatsapp:</strong> +62 878-8891-2223</p>
+            <a
+              href="https://api.whatsapp.com/send?phone=6287888912223&text=Halo%2C%20saya%20tertarik%20untuk%20membeli%20produk%20Box%20Almunium."
+              target="_blank"
+              ><button>Beli Sekarang</button></a
+            >
+          </div>
+        </div>
+        <div class="product-container2">
+          <img src="img/dump truck product.png" alt="Gambar Produk" />
+          <div class="product-details">
+            <h2>Dump Truck</h2>
+            <p>
+              Dump Truck adalah jenis truk pengangkut yang dirancang khusus
+              untuk mengangkut beban berat seperti, pasir, tanah, batu, kerikil,
+              dan lainnya. Jenis truk ini sering digunakan pada berbagai sektor
+              industri, terutama pada konstruksi dan pertambangan. Dump truck
+              juga memiliki kemampuan memiringkan bak sehingga pembongkaran
+              beban muatan jauh lebih cepat dan efisien.
+            </p>
+            <p><strong>Hubungi Whatsapp:</strong> +62 878-8891-2223</p>
+            <a
+              href="https://api.whatsapp.com/send?phone=6287888912223&text=Halo%2C%20saya%20tertarik%20untuk%20membeli%20produk%20Dump%20Truck."
+              target="_blank"
+              ><button>Beli Sekarang</button></a
+            >
+          </div>
+        </div>
+        <div class="product-container">
+          <img src="img/tangki product.png" alt="Gambar Produk" />
+          <div class="product-details">
+            <h2>Tangki</h2>
+            <p>
+              Karoseri truk tangki adalah bagian dari truk yang dibuat dengan
+              menambahkan bodi tangki. Digunakan untuk mengangkut dan sebagai
+              penyimpanan cairan seperti bahan bakar minyak, air, atau bahan
+              kimia lainnya untuk keperluan industri atau pertanian. Jenis jenis
+              truk tanki yang kita buat : Tanki CPO, Tanki Hi Blow, Tanki Air,
+              Tanki BBM, Tanki Vacum dll
+            </p>
+            <p><strong>Hubungi Whatsapp:</strong> +62 878-8891-2223</p>
+            <a
+              href="https://api.whatsapp.com/send?phone=6287888912223&text=Halo%2C%20saya%20tertarik%20untuk%20membeli%20produk%20Tangki."
+              target="_blank"
+              ><button>Beli Sekarang</button></a
+            >
+          </div>
+        </div>
+        <div class="product-container2">
+          <img src="img/selfloader product.png" alt="Gambar Produk" />
+          <div class="product-details">
+            <h2>Self Loader</h2>
+            <p>
+              Karoseri self loader adalah proses modifikasi atau pembuatan bodi
+              truk yang dilengkapi dengan peralatan self loader. Self loader
+              adalah peralatan yang digunakan untuk memuat dan memindahkan
+              barang dari satu tempat ke tempat lain tanpa bantuan crane atau
+              alat berat lainnya.
+            </p>
+            <p><strong>Hubungi Whatsapp:</strong> +62 878-8891-2223</p>
+            <a
+              href="https://api.whatsapp.com/send?phone=6287888912223&text=Halo%2C%20saya%20tertarik%20untuk%20membeli%20produk%20Self%20Loader."
+              target="_blank"
+              ><button>Beli Sekarang</button></a
+            >
+          </div>
+        </div>
+        <div class="product-container">
+          <img src="img/wingbox product.png" alt="Gambar Produk" />
+          <div class="product-details">
+            <h2>Wing Box</h2>
+            <p>
+              Body samping tirai mengoptimalkan fleksibilitas konfigurasi ini
+              karena memungkinkan akomodasi muatan lebih besar yang memerlukan
+              akses samping untuk bongkar muat, serta muatan lebih kecil yang
+              ditambahkan dan dikeluarkan melalui pintu belakang, semuanya dalam
+              satu kendaraan. Akses instan ke kargo dari kedua sisi, lalu dengan
+              cepat menutup tirai lagi merupakan keuntungan besar bagi pengemudi
+              truk box dan penjadwalnya.
+            </p>
+            <p><strong>Hubungi Whatsapp:</strong> +62 878-8891-2223</p>
+            <a
+              href="https://api.whatsapp.com/send?phone=6287888912223&text=Halo%2C%20saya%20tertarik%20untuk%20membeli%20produk%20Wing%20Box."
+              target="_blank"
+              ><button>Beli Sekarang</button></a
+            >
+          </div>
+        </div>
+        <div class="product-container2">
+          <img src="img/mixer product.png" alt="Gambar Produk" />
+          <div class="product-details">
+            <h2>Mixer</h2>
+            <p>
+              Karoseri truck mixer merupakan salah satu alat berat yang
+              digunakan untuk mencampur material konstruksi seperti pasir, batu,
+              air, dan semen secara efisien. Truck mixer juga merupakan alat
+              transportasi khusus bagi beton curah siap pakai (Readymix
+              concrete) yang digunakan untuk mengangkut campuran beton curah
+              siap pakai (Readymix concrete) dari Batching Plant (Pabrik Olahan
+              Beton) ke lokasi pengecoran.
+            </p>
+            <p><strong>Hubungi Whatsapp:</strong> +62 878-8891-2223</p>
+            <a
+              href="https://api.whatsapp.com/send?phone=6287888912223&text=Halo%2C%20saya%20tertarik%20untuk%20membeli%20produk%20Mixer."
+              target="_blank"
+              ><button>Beli Sekarang</button></a
+            >
+          </div>
+        </div>
+        <div class="product-container">
+          <img src="img/arm roll product.png" alt="Gambar Produk" />
+          <div class="product-details">
+            <h2>Arm Roll</h2>
+            <p>
+              Truk arm roll, yang juga dikenal sebagai truk roll on-roll off
+              (Ro-Ro), adalah jenis truk yang dirancang untuk membawa dan
+              mengangkut kontainer atau bak sampah dengan menggunakan sistem
+              hidrolik. Truk ini memiliki lengan panjang yang dapat digerakkan
+              untuk memuat atau menurunkan kontainer atau bak sampah dengan
+              mudah.
+            </p>
+            <p><strong>Hubungi Whatsapp:</strong> +62 878-8891-2223</p>
+            <a
+              href="https://api.whatsapp.com/send?phone=6287888912223&text=Halo%2C%20saya%20tertarik%20untuk%20membeli%20produk%20Arm%20Roll."
+              target="_blank"
+              ><button>Beli Sekarang</button></a
+            >
+          </div>
+        </div>
+        <div class="product-container2">
+          <img src="img/crane product.png" alt="Gambar Produk" />
+          <div class="product-details">
+            <h2>Truck Crane</h2>
+            <p>
+              Konfigurasi paling dasar derek yang dipasang di truk adalah ``truk
+              boom``, yang dilengkapi derek boom teleskopik berputar yang
+              dipasang di belakang dan dipasang pada sasis truk komersial. Derek
+              ini mampu berjalan di jalan raya, sehingga tidak memerlukan
+              peralatan khusus untuk mengangkut derek kecuali ada batasan berat
+              atau ukuran lain seperti undang-undang setempat.
+            </p>
+            <p><strong>Hubungi Whatsapp:</strong> +62 878-8891-2223</p>
+            <a
+              href="https://api.whatsapp.com/send?phone=6287888912223&text=Halo%2C%20saya%20tertarik%20untuk%20membeli%20produk%20Crane."
+              target="_blank"
+              ><button>Beli Sekarang</button></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="socials">
+        <a href="https://www.instagram.com/karoseriamn/"
+          ><i data-feather="instagram"></i
+        ></a>
+        <a
+          href="https://wa.me/+6285975287684?text=Halo%20Saya%20Dapat%20Nomor%20Anda%20Dari%20Google"
+          ><i data-feather="phone"></i
+        ></a>
+        <a href="https://x.com/Amnkaroseri123"
+          ><i data-feather="twitter"></i
+        ></a>
+      </div>
+
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="our_service.html">Our Service</a>
+        <a href="our_product.html">Our Product</a>
+        <a href="contact_us.html">Contact</a>
+        <a href="company_profile.html">About Us</a>
+      </div>
+
+      <div class="credit">
+        <p>Created by Nacha Natanael | &copy;2020</p>
+      </div>
+    </footer>
+
+    <script>
+      feather.replace();
+    </script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        new Splide("#image-slider", {
+          type: "loop",
+          perPage: 1,
+          autoPlay: true,
+          interval: 2000,
+        }).mount();
+      });
+    </script>
+
+    <script src="js/script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.11/dist/js/splide.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+      feather.replace();
+      document
+        .querySelector(".hamburger-menu")
+        .addEventListener("click", function () {
+          document.querySelector(".dropdown-menu").classList.toggle("open");
+        });
+    </script>
+    <script
+      src="https://static.elfsight.com/platform/platform.js"
+      data-use-service-core
+      defer
+    ></script>
+    <div
+      class="elfsight-app-d25a665e-4851-4805-bf49-0dc5a8ab8d5d"
+      data-elfsight-app-lazy
+    ></div>
+  </body>
+</html>
